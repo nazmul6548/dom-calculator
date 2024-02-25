@@ -48,3 +48,20 @@ const p =document.createElement('p');
 p.textContent="insha Allah ";
 newclass.appendChild(p);
 myId.appendChild(newclass);
+
+const a = document.createElement('div');
+a.id ="aid";
+const ul = document.createElement('ul');
+const li1 =document.createElement('li');
+const li2 =document.createElement('li');
+const li3 =document.createElement('li');
+li1.innerText="about ";
+li2.textContent="skill";
+li3.innerText = "contact";
+ul.appendChild(li1);
+ul.appendChild(li2);
+ul.appendChild(li3);
+a.appendChild(ul);
+
+
+document.body.appendChild(a);
