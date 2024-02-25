@@ -31,13 +31,20 @@
 //     document.getElementById('btn').innerText =Date()
 // }
 
-const person ={
-    name:"nazmul",
-    adress:{
-        thana:"mirsarai",
-        zilla :"chittagong"
-    }
-}
-const  {adress:{zilla:upozilla}} =person;
-// const {zilla} = adress;
-console.log(upozilla);
+// const person ={
+//     name:"nazmul",
+//     adress:{
+//         thana:"mirsarai",
+//         zilla :"chittagong"
+//     }
+// }
+// const  {adress:{zilla:upozilla}} =person;
+// // const {zilla} = adress;
+// console.log(upozilla);
+const myId = document.getElementById('newdiv');
+const newclass = document.createElement("div");
+newclass.className ="newMe";
+const p =document.createElement('p');
+p.textContent="insha Allah ";
+newclass.appendChild(p);
+myId.appendChild(newclass);
