@@ -41,13 +41,13 @@
 // const  {adress:{zilla:upozilla}} =person;
 // // const {zilla} = adress;
 // console.log(upozilla);
-const myId = document.getElementById('newdiv');
-const newclass = document.createElement("div");
-newclass.className ="newMe";
-const p =document.createElement('p');
-p.textContent="insha Allah ";
-newclass.appendChild(p);
-myId.appendChild(newclass);
+// const myId = document.getElementById('newdiv');
+// const newclass = document.createElement("div");
+// newclass.className ="newMe";
+// const p =document.createElement('p');
+// p.textContent="insha Allah ";
+// newclass.appendChild(p);
+// myId.appendChild(newclass);
 
 const a = document.createElement('div');
 a.id ="aid";
@@ -65,3 +65,21 @@ a.appendChild(ul);
 
 
 document.body.appendChild(a);
+
+const abul = document.querySelector('#amardiv');
+// function myFunc(value) {
+//     let li = document.createElement('li');
+//     li.textContent = value;
+//     return li; 
+// }
+// abul.appendChild(myFunc("HOME"));
+// abul.appendChild(myFunc("ABOUT"));
+// abul.appendChild(myFunc("SKILL"));
+// abul.appendChild(myFunc("CONTACT"));
+// const p1 = document.createElement('li');
+// p1.textContent ='jewel';
+// // abul.innerHTML=p1;
+// abul.appendChild(p1)
+
+const look = document.getElementById('specil');
+console.log(look.innerHTML);
